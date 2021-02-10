@@ -1,0 +1,52 @@
+[
+	{
+		"id": "WidgetId",
+		"type": "number",
+		"label": "WidgetId",
+		"validation": [
+			{
+				"type": "required",
+				"message": "This is required"
+			}
+		]
+	},
+	{
+		"id": "AccessId",
+		"type": "password",
+		"label": "Logic Monitor Access ID",
+		"validation": [
+			{
+				"type": "required",
+				"message": "This is required"
+			}
+		]
+	},
+	{
+		"id": "AccessKey",
+		"type": "password",
+		"label": "Locig Monitor Access Key",
+		"validation": [
+			{
+				"type": "required",
+				"message": "This is required"
+			}
+		]
+	},
+	{
+		"id": "Company",
+		"type": "select",
+		"label": "Select your Logic Monitor Company",
+		"options": [
+			{
+				"value": "ci",
+				"label": "ci"
+			}
+		]
+	},
+	{
+		"id": "Range",
+		"type": "number",
+		"label": "From in minutes",
+		"help": "A value of 0 will take the dashboard default time of 24h"
+	}
+]
